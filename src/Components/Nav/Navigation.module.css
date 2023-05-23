@@ -1,0 +1,30 @@
+.mainBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background-color: bisque;
+}
+
+.link {
+/*padding: 5px;*/
+    margin: 5px;
+    color: #124485;
+
+
+}
+
+.activeLink {
+    letter-spacing: 4px;
+    color: #8bb7b7;
+    font-size: larger;
+}
+.link:hover {
+    letter-spacing: 4px;
+    color: #78c00e;
+}
+
+a {
+    text-decoration: none;
+}
