@@ -4,6 +4,7 @@
 }
 .navWithContent {
     display: flex;
+    justify-content: space-around;
     /*height: 100%;*/
     height: calc(100% - 80px);   /*потом поменять, пока для красоты так оставил*/
 }
