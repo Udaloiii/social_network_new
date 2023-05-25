@@ -6,5 +6,6 @@
     display: flex;
     justify-content: space-around;
     /*height: 100%;*/
-    height: calc(100% - 80px);   /*потом поменять, пока для красоты так оставил*/
+    /*height: calc(100% - 80px);   !*потом поменять, пока для красоты так оставил*!*/
+    min-height: 100vh;
 }
